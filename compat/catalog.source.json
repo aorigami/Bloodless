@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "min_engine": 1,
+  "revision": 2026110702,
+  "published_at": "2026-11-07",
+  "device": {
+    "vid": 2522,
+    "pid": 16288,
+    "usage_page": 65331,
+    "usage": 2871,
+    "interface": "mi_02&col05",
+    "feature_length": 64
+  },
+  "firmwares": [
+    {
+      "signature": "370b11",
+      "engine": "w95-hid-v1",
+      "clear_mask_on_release": false,
+      "max_slots": 24,
+      "fire_mode_base": 0,
+      "read_fields": {
+        "bottom": [
+          "0x200009B0",
+          5
+        ],
+        "profile": [
+          "0x200005F7",
+          1
+        ],
+        "core": [
+          "0x200002D0",
+          1
+        ],
+        "active_rate": [
+          "0x2000036F",
+          1
+        ],
+        "lod_apply": [
+          "0x20000A28",
+          1
+        ],
+        "cpi": [
+          "0x200002F9",
+          1
+        ],
+        "fire_mode": [
+          "0x200005DE",
+          1
+        ]
+      },
+      "write_fields": {
+        "rate": "0x200009B0",
+        "lod": "0x200009B3",
+        "lod_apply": "0x20000A28",
+        "save_bottom": "0x200009DA"
+      },
+      "button_slots": {
+        "left": 1,
+        "middle": 3,
+        "right": 2,
+        "side4": 4,
+        "side5": 5,
+        "fire": 7,
+        "sniper": 14,
+        "sensitivity": 13,
+        "fire1": 9,
+        "firen": 10,
+        "fire3": 11,
+        "fire4": 12
+      }
+    },
+    {
+      "signature": "370b34",
+      "engine": "w95-hid-v1",
+      "clear_mask_on_release": true,
+      "max_slots": 16,
+      "fire_mode_base": 1,
+      "read_fields": {
+        "bottom": [
+          "0x200009D8",
+          5
+        ],
+        "profile": [
+          "0x2000061D",
+          1
+        ],
+        "core": [
+          "0x200002D0",
+          1
+        ],
+        "active_rate": [
+          "0x20000377",
+          1
+        ],
+        "lod_apply": [
+          "0x20000A50",
+          1
+        ],
+        "cpi": [
+          "0x200002FD",
+          1
+        ],
+        "fire_mode": [
+          "0x2000036F",
+          1
+        ]
+      },
+      "write_fields": {
+        "rate": "0x200009D8",
+        "lod": "0x200009DB",
+        "lod_apply": "0x20000A50",
+        "save_bottom": "0x20000A02"
+      },
+      "button_slots": {
+        "left": 1,
+        "middle": 3,
+        "right": 2,
+        "side4": 4,
+        "side5": 5,
+        "fire": 7,
+        "sniper": 14,
+        "sensitivity": 13,
+        "fire1": 9,
+        "firen": 10,
+        "fire3": 11,
+        "fire4": 12
+      }
+    }
+  ]
+}
